@@ -1,15 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+/* MARK: GENERAL*/
 * {
     box-sizing: border-box;
     font-family: 'Lexend', sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #f8f8f8; 
     color: #333;
+}
+
+span{
+    color:rgb(155, 11, 95);
+    font-weight: 600;
 }
 
 header {
@@ -33,6 +39,7 @@ header h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 1.5rem;
 }
 
 .nav a {
@@ -46,20 +53,51 @@ header h1 {
     color: #ff6347;
 }
 
-/* MARK: - SOBRE */
-.sobre img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+/* MARK: - BANNER */
+figure.banner {
+    width: 100%; 
+    height: 400px;
+    overflow: hidden;
+    filter: brightness(50%);
+    margin: 0;
 }
 
-.sobre p {
+figure.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* MARK: - SOBRE */
+.banner{
+    max-width: 100%;
+    max-height: 10%;
+}
+
+.sobre img {
+
+    object-fit: contain;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sobre-text {
     text-align: center;
     font-size: 1.1rem;
     line-height: 1.6;
     margin-top: 2rem;
+    padding: 3rem;
+    margin: 0 10rem;
+}
+
+/* MARK: - MISSAO */
+.mission-sec{
+    text-align: center;
+    justify-content: center;
+    padding: 4rem;
+    background-color: #f0f0f0;
 }
 
 /* MARK: - EXPO */
@@ -120,6 +158,35 @@ header h1 {
     font-weight: 700;
     margin-top: 1rem;
     color: #ff6347;
+}
+
+/* MARK: VISIT */
+.visit-guide{
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    gap: 1.5rem;
+}
+
+.visit-guide iframe{
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow:  0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* MARK: FOOTER*/
+footer{
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    background-color: #121212;
+    color: rgb(255,255,255,0.5);
+}
+
+footer img{
+    width: 15rem;
+    height: auto;
+    padding: 2rem;
 }
 
 /* MARK: - MEDIA */
