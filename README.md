@@ -6,7 +6,7 @@ Museu do Piauí - Casa de Odilon Nunes, é uma instituição estadual vinculada 
 
 ## 🚀 Deploy
 
-Veja mais sobre o [Museu Virtual do Piauí](http://museudopiaui-mup.com/)
+Veja mais sobre o [Museu Virtual do Piauí](https://virtual-museum-cjovem.vercel.app/)
 
 ## 🛠️ Tecnologias Utilizadas
 
